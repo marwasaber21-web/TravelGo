@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGo</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="TravelGo.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="flights.html">
+    <link rel="stylesheet" href="flights.css">
+    <link rel="stylesheet" href="hotels.html">
+    <link rel="stylesheet" href="hotels.css">
+    <link rel="stylesheet" href="travel-form.html">
+    <link rel="stylesheet" href="travel-form.css">
+    <link rel="stylesheet" href="guides.html">
+    <link rel="stylesheet" href="guides.css">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+       <div class="container">
+            <a class="navbar-brand" href="#">
+                 <div class="logo text-light">TravelGo</div>
+            </a>
+            <button class="navbar-toggler" type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#main"
+              aria-controls="main" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="flights.html">Filghts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="hotels.html">Hotels</a>
+                   </li>
+                   <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="guides.html">Guides</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="contact.html">Contact</a>
+                   </li>
+                   <li>
+                      <a id="login-btn " class="btn btn-primary rounded-pill main-btn" href="login.html">Login</a>
+                   </li>
+                   <li>
+                    <a id="profile-btn" href="profile.html" style="display: none;">My Profile</a>
+                </li>
+                </ul>
+           </div>
+        </div>   
+    </nav>
+    <div class="landing d-flex justify-content-center align-items-center">
+    </div> 
+</div>
+    <div class="our-work text-center pt-5 pb-5">
+        <div class="contianer">
+            <div class="main-title mt-5 mb-5 position-relative">
+                  <img class=logo src="image/tt.jpg" alt="logo">
+                <h2>Famous tourist attractions </h2>
+                <p class="text-black-50 text-uppercase">Prepare to be amazed</p>            
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="ITALY">
+                        <img class="img-fluid" src="image/med.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="LIVADIA PALACE">
+                        <img class="img-fluid" src="image/نت.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="GREECE">
+                        <img class="img-fluid" src="image/ع.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="CANADA">
+                        <img class="img-fluid" src="image/kk.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="MACHU PICCHU, PERU">
+                        <img class="img-fluid" src="image/ج.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-2 bg-white"data-work="THE GREAT WALL OF CHINA">
+                        <img class="img-fluid" src="image/سور.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="LGUAZU FALLS, ARGENTINE">
+                        <img class="img-fluid" src="image/دد.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="SECRET FALLS, ICELAND">
+                        <img class="img-fluid" src="image/ش.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 clo-lg-3">
+                    <div class="box mb-3 bg-white"data-work="TAJ MAHAL">
+                        <img class="img-fluid two" src="image/تاج.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <a class="btn rounded-pill main-btn text-uppercase" href="flights.html">travel now</a>
+            </div>
+        </div>
+    </div>
+    <div class="stuffe pt-5">
+        <div class="container">
+            <div class="main-title text-center mt-5 mb-5 position-relative">
+                <img class=logo src="image/tt.jpg" alt="logo">
+                <h2>A Timeless Wonder </h2>
+                <p class="text-black-50 text-uppercase">Pyramids of giza</p>           
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 mb-4 text-center text-md-start">
+                    <div class="text">
+                        <h4 class="mb-5">Pyramids A Timeless Wonder</h4>
+                        <p class="text-black-50 fs-6">The Pyramids of Giza offer visitors a magical experience
+                            that blends history, mystery,and breathtaking views. Tourists feel truly
+                            happy as they stand before these ancient wonders, capturing
+                            unforgettable photos and enjoying the warm Egyption hospitality. Whether riding
+                            camels, exploring the Sphinx, or watching the sunset behind the pyramids,
+                            every moment at Giza becomes a memory that lasts forever.
+                        </p>
+                        <a class="btn rounded-pill main-btn text-uppercase mt-10" href="flights.html">visit now</a>
+                    </div>
+                </div> 
+                <div class="col-lg-8">
+                    <div class="image">
+                        <img class="img-fluid" src="image/ppd.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team text-center pb-5 pt-5">
+        <div class="container pb-5 pt-5 mb-5">
+            <h2 class="fw-bold pb-4">Experience Comfort & Style</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-white">
+                        <img class="img-fluid" src="image/lp.jpg" alt="">
+                        <h4 class="p-3 text-light">EGYPT</h4>
+                        <blockquote class="text-black-50 p-3">A trip to Egypt was like a dream...a comfortable
+                            stay in hotels that combined luxury and warmth, and genuine hospitality that made 
+                            me feel right at home. Between the  mysteries of the pyramids and the whispers
+                            of the Nile, i experienced moments i will never forget
+                        </blockquote>
+                    </div>
+                </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="box bg-white">
+                        <img class="img-fluid" src="image/uu.jpg" alt="">
+                        <h4 class="p-3 text-light">DUBAI</h4>
+                        <blockquote class="text-black-50 p-3">Dubai isn't just visited... it's lived.
+                            My Dubai trip was amazing!The hotels were luxurious,
+                            stylish, and full of comfort perfect for exploring this dazzling city.
+                            Every stay fell like a dream!
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-white">
+                        <img class="img-fluid" src="image/ued.jpg" alt="">
+                        <h4 class="p-3 text-light">ISTANBUL</h4>
+                        <blockquote class="text-black-50 p-3">Istanbul is a city where continents meet, civilizations intertwine,
+                            and sounds harmonize:the sound of waves from the Bosphorus, the call to prayer from centuies-old minarets
+                            amidst the city's magic,your'll feel you 're part of its story.
+                        </blockquote>
+                    </div>
+                </div>    
+                  <div class="col-md-6 col-lg-3">
+                    <div class="box bg-white">
+                        <img class="img-fluid" src="image/ud.jpg" alt="">
+                        <h4 class="p-3 text-light">PARIS</h4>
+                        <blockquote class="text-black-50 p-3">
+                            Its hotels, each one is like a chapter from a romantic novel: elegant rooms with classic details,
+                            windows overlooking red rooftops and breakfast served as a gift from the city itself.
+                            Staying in paris isn't just about sleeping...it's about experienceing its magic,
+                            which stays with you long after you leave.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="techs pt-5 pb-5 text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image//ppppp.webp" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image/OIlllP.webp" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image/pppp.webp" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image/p'l,l,pk.webp" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image/lfl;OIP.webp" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img class="img-fluid" src="image/OmmmIP.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project text-center pt-5 pb-5 text-light">
+        <h2>Enjoy your trip now</h2>
+        <p class="text-white-50">Book your stay at the most beautiful hotels in the world</p>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+            <a class="btn rounded-pill main-btn text-uppercase" href="hotels.html">Book now</a>
+        </div>
+    </div>
+     <div class="blog pt-5 pb-5">
+        <div class="container">
+            <div class="main-title text-center mt-5 mb-5 position-relative">
+                <img class=logo src="image/tt.jpg" alt="logo">
+                <h2>Read Our Blog </h2>
+                <p class="text-black-50 text-uppercase">Now Stories</p>            
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="image/'م.jpg" class="card-img-top" alt="Blog Post">
+                        <div class="card-body">
+                            <span class="text-black-50">Jan 17,2025</span>
+                            <h5 class="card-title">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="image/po.jpg" class="card-img-top" alt="Blog Post">
+                        <div class="card-body">
+                            <span class="text-black-50">Jan 17,2025</span>
+                            <h5 class="card-title">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="image/حح.jpg" class="card-img-top" alt="Blog Post">
+                        <div class="card-body">
+                            <span class="text-black-50">Jan 17,2025</span>
+                            <h5 class="card-title">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5 mb-5">
+                   <a class="btn rounded-pill main-btn text-uppercase" href="#">more stories...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe pt-5 pb-5 text-center text-ms-start">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="fw-bold fs-5 md-3">Subscribe to our newsletter:</div>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <input class="w-100 text-light p-2 bg-transparent" type="text" placeholder="Enter Email Address">
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <input class="btn rounded-pill" type="submit" value="subscribe">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="info mb-5">
+                        <img class=logo src="image/tt.jpg" alt="logo">
+                        <p>
+                            A website offering the latest hotels and the finest trips. Enjoy your journey wherever you are, because it will surely pass, so make it pass happily. The world doesn't care if you're sad or happy, 
+                            so smile for yourself only.
+                        </p>
+                        <div class="copyright">
+                            Created By <span>2W</span>
+                            <div>&copy; 2025 - <span>TravelGo</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">Links</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Support</li>
+                            <li>Portfolio</li>
+                            <li>Test imonials</li>
+                            <li>Support</li>
+                            <li>Terms and Condition</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">About Us</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Sign In</li>
+                            <li>Register</li>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact">
+                        <h4 class="text-light">Contact Us</h4>
+                       
+                        <ul class="d-flex mt-5 list-unstyled gap-3">
+                            <li>
+                                <a class="d-block text-light" href="#"
+                                  ><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i
+                                ></a>
+                            </li>
+                             <li>
+                                <a class="d-block text-light" href="#"
+                                  ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i
+                                ></a>
+                            </li>
+                             <li>
+                                <a class="d-block text-light" href="#"
+                                  ><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i
+                                ></a>
+                            </li>
+                             <li>
+                                <a class="d-block text-light" href="#"
+                                  ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/book-script.js"></script>
+    <script>
+        const isLogged =
+        localStorage.getItem("loggedIn") === "true";
+        const loginLink = 
+        document.getElementById("login-btn");
+         const profileLink = 
+        document.getElementById("login-btn");
+        if(isLogged){
+            if(loginLink)
+            loginLink.style.display = "none";
+            if(profileLink)
+            profileLink.style.display = "block";
+        } else{
+            if(loginLink)
+            loginLink.style.display = "block";
+            if(profileLink)
+            profileLink.style.display ="none"
+        }
+    </script>
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TravelGo</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="flights.html">
+    <link rel="stylesheet" href="flights.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="TravelGo.css">
+    <link rel="stylesheet" href="hotels.html">
+    <link rel="stylesheet" href="profile.html">
+    <link rel="stylesheet" href="guides.html">
+    <link rel="stylesheet" href="guides.css">
+</head>
+<body>
+    <div class="login-container justify-content-center">
+        <div class="logo">
+            <h1>TravelGo</h1>
+        </div>
+        <h2 class="welcome-text">Welcome to TravelGo</h2>
+        <form class="login-from">
+            <input type="email" placeholder="Email address / Mobile number">
+            <input type="password" placeholder="Password">
+            <a href="#" class="forgot-password">Forgot your password?</a>
+             <button onclick="loginUser()">Login</button>
+        </form>
+        <div class="divider">OR LOG IN USING</div>
+        <div class="social-login">
+            <button class="google">google</button>
+            <button class="facebook">Facebook</button>
+        </div>
+        <p class="signup-text">You don't have an account<a href="#">Create a new account</a></p>
+    </div>
+    <script>
+        function loginUser(){
+            localStorage.setItem("loggedIn","true");
+            window.location.href = "index.html";
+        }
+    </script>
+    
+</body>
+</html>

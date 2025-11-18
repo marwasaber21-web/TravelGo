@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guides - TravelGo </title>
+    <link rel="stylesheet" href="guides.css">
+    <!-- <link rel="stylesheet" href="TravelGo.css"> -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TravelGo</div>
+        <ul class="nav-links">      
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a  href="flights.html">Filghts</a>
+            </li>
+            <li>
+              <a href="hotels.html">Hotels</a>
+            </li>
+            <li >
+              <a class="active" href="guides.html">Guides</a>
+            </li>
+            <li>
+               <a href="contact.html">Contact</a>
+            </li>
+       </ul>              
+    </nav>
+    <header class="header-guides">
+        <h1>Share a photo from your trip whith us</h1>
+        <p>Upload your favorite photo and make it a part of your memories with us</p>
+      
+    </header>
+    <section class="guide-list">
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/جد.jpg" alt="logo">
+          <h3>Mohamed</h3>
+           <p>Languages: Arabic & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/تا.jpg" alt="logo">
+          <h3>Sarah</h3>
+           <p>Languages: French & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/بل.jpg" alt="logo">
+          <h3>Marwa</h3>
+           <p>Languages: Spanish & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/اك.jpg" alt="logo">
+          <h3>Salma</h3>
+           <p>Languages: Spanish & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/دج.jpg" alt="logo">
+          <h3>Shams</h3>
+           <p>Languages: Spanish & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/هخ.jpg" alt="logo">
+          <h3>Friends</h3>
+           <p>Languages: Spanish & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="guide-card col-sm-6 col-md-4 clo-lg-3">
+          <img  class="img-fluid box mb-3 bg-white" src="image/خد.jpg" alt="logo">
+          <h3>sea</h3>
+           <p>Languages: Spanish & English</p>
+           <button>Book Now</button>
+        </div>
+        <div class="memory-upload">
+          <label for="imageUpload" class="upload-btn">Choose a picture</label>
+          <input type="file" id="imageUpload" class="upload-input" accept="image/*">
+        
+          <div class="preview-container" id="previewContainer">
+            <span class="preview-placeholder">Your image will appear here after uploading</span>
+          </div>
+        </div>
+        <script>
+          document.getElementById('imageUpload').addEventListener('change',function(e){
+            const file = e.target.file[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(event){
+              const previewContainer =document.getElementById('previewContainer');
+              previewContainer.innerHTML = '<img src="${event.target.result}" class="preview-image" alt="Preview">';
+            };
+            reader.readAsDataURL(file);
+          });
+        </script>   
+    </section>
+</body>
+</html>
