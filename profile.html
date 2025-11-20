@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile - TravelGo</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TravelGo</div>
+        <ul class="nav-left">      
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="flights.html">Filghts</a>
+            </li>
+            <li>
+              <a href="hotels.html">Hotels</a>
+            </li>
+            <li >
+              <a href="guides.html">Guides</a>
+            </li>
+            <li>
+                <a class="active" href="profile.html">Profile</a>
+            </li>
+            <li>
+               <a href="contact.html">Contact</a>
+            </li>
+       </ul>                
+    </nav>
+    <main class="container">
+        <section class="profile-card">
+            <div class="profile-top">
+                <img src="image/user.jpg" alt="User photo" class="avatar">
+                <div class="user-info">
+                    <h1 class="name">Username</h1>
+                    <p class="meta">Email@example.com . Cairo, Egypt</p>
+                    <div class="action">
+                        <button class="btn btn-primary">Edit Profile</button>
+                        <button class="btn btn-outline" id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-stats">
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Total Booking</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Saved Places</span>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">My Booking</h2>
+            <div class="cards-grid" id="bookingsList">
+                <article class="trip-card">
+                    <img class="trip-img" src="images/hotels/hotel1.jpg" alt="Hotal Image"/>
+                    <div class="trip-content">
+                        <h3 class="trip-title">Pyramids Tour - Cairo</h3>
+                        <p class="trip-meta">Date: Dec 20, 2025 . Travelers: 2</p>
+                        <p class="trip-price">$120</p>
+                        <div class="trip-actions">
+                            <a class="btn btn-sm" href="#">View / Edit</a>
+                            <button class="btn btn-sm btn-danger">Canel Booking</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">My Experience</h2>
+            <div class="review-box">
+                <div class="review-header">
+                    <div class="review-stars">******<span class="rating">4.8</span>
+                    </div>
+                    <div class="review-date">Nov 12, 2026</div>
+                </div>
+                <p class="review-text">Amazing experience! the tour guide was very friendly, and the hotel was 
+                    clean and comfortable. Highty recommended for families
+                </p>
+                <div class="review-actions">
+                    <button class="btn btn-outline">Edit Review</button>
+                    <button class="btn">Add New Review</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p> #2026 TravelGo - All Rights Reserved</p>
+    </footer>
+</body>
+</html>    
