@@ -202,3 +202,7 @@ body{
 .row .card{
   height: 550px;
 }
+.landing .img{
+  max-width: 100%;
+  height: auto;
+}
