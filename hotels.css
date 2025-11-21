@@ -44,11 +44,14 @@ body{
     font-size: 18px;
 }
 .hotel-search h2{
-    margin-bottom: 10px;
+    margin-bottom: -36px;
     padding: 8px 18px;
     background: white;
     color:#19283f;
     cursor: pointer;
+}
+.search{
+    margin-left: 250px;
 }
 .hotel-form{
     display: flex;
