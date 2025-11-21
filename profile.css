@@ -1,5 +1,10 @@
 
-.navbar{
+/* .header-flights{ */
+    /* margin: 0; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* background-color: #19283f; */
+/* } */
+.nav-bar{
     margin: 0;
     background-color: #19283f;
     padding:15px 20px ;
@@ -8,7 +13,7 @@
     align-items: center;
     color: #fff;
 }
-.navbar .logo{
+.nav-bar .logo{
     font-size: 22px;
     font-weight: bold;
 }
@@ -27,6 +32,48 @@
   text-decoration: underline;
   color: #33d1cc;
 }
+/* .header-flights{ */
+    /* background: url('https//i.ibb.co/2Zt8RKs/flight-bg.jpg;') cover no-repeat; */
+    /* text-align: center; */
+    /* padding: 80px 20px; */
+    /* color: #fff; */
+    /* background: #19283f; */
+/* } */
+/* .header-flights h1{ */
+    /* font-size: 40px; */
+/* } */
+/* .header-flights p{ */
+    /* font-size: 18px; */
+/* } */
+
+
+
+
+/* .nav{ */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 14px 24px; */
+    /* background: linear-gradient(90deg, #ffffff ); */
+    /* box-shadow: 0 2px 8px rgba(12, 23, 42, 0.04); */
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 50; */
+/* } */
+/* .nav .logo{ */
+    /* font-weight: 700; */
+    /* color: #1a73e8; */
+    /* text-decoration: none; */
+/* } */
+/* .nav .logo li a{ */
+    /* color: #6b7280; */
+    /* text-decoration: none; */
+    /* margin-left: 18px; */
+    /* font-weight: 600; */
+/* } */
+/* .nav .logo li a.active{ */
+    /* color: #1a73e8; */
+/* } */
 body{
     margin: 0;
 }
@@ -66,7 +113,7 @@ body{
     color: #6b7380;
     font-size: 14px;
 }
-.btn{
+.profile-card .btn{
     display: inline-block;
     padding: 8px 14px;
     border-radius: 10px;
@@ -77,7 +124,7 @@ body{
     color: #fff;
     border: 0;
 }
-.btn:hover{
+.profile-card .btn:hover{
     filter: brightness(0.95);
 }
 .btn-outline{
@@ -85,11 +132,11 @@ body{
     color: #1a73e8;
     border: 1px solid rgba(26, 115, 232, 0.18);
 }
-.btn-sm{
+.section.btn-sm{
     padding: 6px 10px;
     font-size: 14px;
 }
-.btn-danger, .remove-booking{
+.section .btn-danger, .remove-booking{
     background: #e53e3e;
     color: #fff;
 }
