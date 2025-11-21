@@ -24,13 +24,13 @@ body{
   text-decoration: underline;
   color: #33d1cc;
 }
-.header-contact{
+.header-flights{
     background-color: #19283f;
     text-align: center;
     padding: 80px 20px;
     color: white;
 }
-.header-contact h1{
+.header-flights h1{
     font-size: 42px;
 }
 .contact-section{
@@ -63,7 +63,7 @@ body{
 }
 .contact-form input,
 .contact-form textarea{
-    width: 100%;
+    width: 92%;
     padding: 12px;
     margin-bottom: 12px;
     border: 1px solid #ddd;
@@ -87,4 +87,17 @@ body{
     .navbar .logo{
         display: none;
     }
+}
+.contact-form{
+     background: white;
+    width: 250px;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.contact-form:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, o, 0.15);
 }
